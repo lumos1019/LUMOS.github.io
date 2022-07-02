@@ -1,0 +1,59 @@
+/* 分頁式標籤頁面 */
+.nav-tabs .nav-link.active{
+    color:#719BA5;
+    background-color: #b5c0db;
+    border-color:#000000;
+}
+
+.tab-content img{
+    display:block;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+ h1{
+    color:#719BA5;
+    front-size:64px;
+    background-color:#DCDCDC;
+    text-align: center;
+    }
+    
+    h2{
+        color:#719BA5;
+        front-size:47px;
+        background-color: whitesmoke;
+        text-align: center;
+    }
+    
+    h3{
+    color:#719BA5;
+    ftont-size:32px;
+    background-color: #F4F6F7;
+    }
+    
+    body{
+        background-color: #DCDCDC;
+    }
+
+    .navbar{
+        background-color:white;
+}
+
+li a{
+    color:#719BA5 !important;
+}
+
+li a:hover{
+    color:black !important;
+}
+
+.nav-togger{
+    background-color:black ;
+}
+
+    img {
+        object-fit: cover;
+        box-shadow: 3px 3px 3px black;
+        }
+    
+        
