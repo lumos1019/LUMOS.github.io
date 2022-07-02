@@ -1,52 +1,52 @@
 <!DOCTYPE html>
-<!-- JAVA  -->
-<head>
-<meta charset="UTF-8">
+<head>    
+<!-- 編碼格式 -->  
+ <meta charset="UTF-8">
+
+ <!-- JAVA連結 -->
 <script src="note.js" lang="JavaScript"></script>
 
    <!-- bootstrape連結 -->
+   <!-- 分頁式標籤頁面 -->
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 
-    <!--css2連結  -->
+    <!--css連結  -->
 	<link rel="stylesheet" href="font.css">
 
-	<!-- 響應式網站-導覽列 -->
+	<!-- 響應式網站RWD-導覽列 -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
-	<!-- bootstrape  -->
+	<!-- bootstrap連結 -->
+	<!-- 響應式網站RWD-導覽列 -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 
-	<!-- JQuery　連結 -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
-    <!-- FullPage 套件連結 -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"></script>
-
 </head>
 	
-<!-- css -->
+<!-- css連結 -->
 <link rel="stylesheet" href="font.css">
-
-
 
 <!--HTML-->
 	<title> LUMOS </title>
 	<body>
 		<nav class="navbar navbar-expand-lg navbar-light">
-			<div class="container-fluid">
-				<!-- logo -->
+			<!-- expand-lg展示｜light-字的顏色  -->
+			<div class="container-fluid"> 
+			<!-- fluid－滿版顯示 -->
+				
+				<!-- 個人照片-->
 				<a class="navbar-brand" href=""><img width="50px" height="50px" src="2048.jpg"></a>
 		
 				<!-- 第一部份：手機 -->
 				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#bbb">
+					<!-- collapse-縮排、data-bs-targat－連結手機版跟電腦版-->
 					<span class="navbar-toggler-icon"></span>
 				</button>
 		
-				<!-- 第二部份：電腦 -->
-					
+				<!-- 第二部份：電腦 -->	
 				<div class="collapse navbar-collapse" id="bbb">
+				
 					<!-- 列出內容 -->
 					<ul class="navbar-nav me-auto">  
 						        <!-- 水平呈現 -->
@@ -62,8 +62,10 @@
 					</ul>
 					<!-- 列出到右邊 -->
 					<form style="width:300px;" class="d-flex">
+					<!-- class="input-group"可將搜尋鈕使用中文字樣 -->
 						<input  class="form-control me-3" type="search" placeholder="搜尋">
-						                         <!-- 間距 -->
+						<!-- me2空格 -->
+					<!-- 間距 -->
 						<button  class="btn btn-danger" type="submit">Search</button>
 		
 					</form>
@@ -75,7 +77,8 @@
 
 	<P><h2>CATALOGUE</h2></P>
 
-<b><ul>
+<!-- id不可用數字 -->
+<b><ul>  
 <li><p><a href="#aaa"onmouseover="over()"onmouseout="unover()"id="aaa">NO.1-1</a></p>
 <li><p><a href="#ccc"onmouseover="over1()"onmouseout="unover1()"id="ccc">NO.1-2</a></p>
 <li><p><a href="#ddd"onmouseover="over2()"onmouseout="unover2()"id="ddd">NO.2-1</a></p>
@@ -146,14 +149,15 @@
 	  <P><img src="https://miro.medium.com/max/1200/1*lFtCvxYNn5pT7crb0LTxVg.jpeg" width="300px" height="200px" alt="PRO PICTURE "></P>
 	  <b><P>專業片在色調、顆粒上都有卓越的表現，簡單分辨的方式就是價格，專業片通常比較貴，除了價格外，專業片的包裝上會寫上Professional的字樣。</p>
 
-<!-- 分頁式
-標籤頁面 -->
-<div class="container-fluid">
+<!-- 分頁式標籤頁面 -->
+<div class="container-fluid">    
+<!-- fluid－滿版顯示 -->
 <h2>Feature-Kodak & Fuji & AGFA </h2> <p class="hhh"></p>
 	<!-- 第一部分-標籤分頁的導覽列 -->
 	<div class="nav nav-tabs nav-justified">
 		<!-- 按鈕1 -->
-		<button class="nav-link active" data-bs-toggle="tab" data-bs-target="#menu1" aria-selected="true">
+		<button class="nav-link active" data-bs-toggle="tab" data-bs-target="#menu1" aria-selected="true"> 
+		  <!--active、true－電腦判讀為第一個被選取  -->
 			Kodak
 		</button>
 		<!-- 按鈕2 -->
@@ -168,13 +172,13 @@
 
 	<!-- 第二部分-標籤分頁的內容-->
 	<div class="tab-content">
-		<!-- 第一個內容 -->
+	<!-- 第一個內容 -->
 		<div class="tab-pane fade show active" id="menu1">
 				<P><img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Eastman_Kodak_Company_logo_%282016%29.svg" width="200px" height="200px" alt="kodak"></P>
 		<p><p><b>Feature-暖色系且顆粒感十足，高對比度的鮮豔色彩，且光影呈現效果優異，配上偏暖紅色系的色調特色，相當適合用於溫暖飽和的人像作品拍攝。</b>
 		</div>
 
-<!-- 第2個內容 -->
+    <!-- 第二個內容 -->
 	<div class="tab-pane fade" id="menu2">
 		<P><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAllBMVEUAonP///9GtZE1sIkApngAn24AoXAAnGnWFi8AmmZ2xKmv3c6d0Lvk9vHz+via1MDA5NggpnqLzbdcvJzK6d+GybBGr4neACk6lmzBMzoAm3CCxavTFC/q9/MApXkmrIOvPj+SzLan2M
 		d6x6u54NHY7+jEMDhWupgAlVuZU0l7aFVOhGS6Mzohl23d8erhAB1pb1d2m4MxlsQtAAAE3klEQVR4nO2d23biNhhGDVhSDI0JGJK2GcKEQ+n0QNv3f7laR8vYM4nBWeRjffsiK9bp17ZlSbYvSIrRjZMM5Y1TGiY3Dg3xoSE+NMSHhvjQEB8a4kNDfGiIDw3xoSE+NMSHhvjQEB8a4kNDfGiIDw3xoSE+NM
@@ -190,11 +194,20 @@
 		<p><p><b>Feature-色調偏綠散發日系風格，色彩飽和度偏低、顆粒感細微的特色，因此在照片細節的呈現上十分完整。底片種類繁多，為當年專業片中的王者。</b>
 		</div>
 
-<!-- 第3個內容 -->
-<div class="tab-pane fade" id="menu3">
+    <!-- 第三個內容 -->
+    <div class="tab-pane fade" id="menu3">
 	<P><img src="https://www.logolynx.com/images/logolynx/e1/e1079429b75a3df19ead9df0d3f9820c.jpeg" width="200px" height="200px" alt="AGFA"></P>
 	<p><p><b>Feature-充滿質感的濃烈色彩，對於亮色的感光度更高，因此整體顏色濃烈且偏暖，尤其是在光線充足的環境之下，其發色表現更佳，不少人會運用於戶外景象與人像攝影上。</b>
 </div>
 	</div>
 </div>
+	</body>
+	</html>
 
+
+
+
+
+
+	
+		
